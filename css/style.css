@@ -3,8 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 100%;
-    /* overflow: hidden; */
-    /* overflow-x:hidden ; */
 }
 
 /* header st  */
@@ -40,7 +38,7 @@
 .button-one{
     display: block;
     background-color: #fb2259;
-    padding: 12px;
+    padding: 12px 25px;
     border: 0;
     border-radius: 8px;
     margin: auto;
@@ -118,9 +116,11 @@ section{
     align-items: center;
     flex-direction: row;
 }
+.explore-child-n{
+    width: 50%;
+}
 .explore-child{
     width: 30%;
-    /* margin: 50px; */
 }
 .explore-child h1{
     font-size: 60px;
@@ -306,7 +306,7 @@ footer{
         font-size: 30px;
     }
     .explore-child-n{
-        display: none;
+        /* display: none; */
     }
     .explore-child{
         width: 100%;
