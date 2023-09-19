@@ -83,8 +83,7 @@
 
     <!-- Explore section st  -->
     <section class="explore">
-        <div class="explore-parent">
-          <div class="explore-child-n"></div>
+        <div class="container explore-parent">
           <div class="explore-child">
             <h1>EXPLORE THE WORLD</h1>
             <span class="explore-span"></span>
@@ -135,11 +134,17 @@
           </ul>
       </div>
       <div class="footer-bottom">
-        <p>copyright &copy;2023 AdventureWorld. designed by <span>M.Tanvir Akon</span></p>
+        <p>copyright &copy;<span id="getCurrentYear"></span> AdventureWorld. designed by <span>M.Tanvir Akon</span></p>
       </div>
   </footer>
  
 
+
+  <script>
+    const date = new Date().getFullYear();
+    const currentYear = document.querySelector('#getCurrentYear');
+    currentYear.innerText = date;
+  </script>
 
 
   <script src="./js/bootstrap.min.js"></script>
